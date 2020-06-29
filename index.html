@@ -3,12 +3,15 @@
 
 <head>
 
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Eureka Trail</title>
+  <title>The Eureka Trail</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +35,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Eureka!</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">The Eureka Trail!</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
@@ -58,41 +61,94 @@
     </div>
   </nav>
 
-  <header class="masthead">
+  <!-- Video Header -->
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="img/video/TheEurekaTrailPromoVideo.mp4" type="video/mp4">
+    </video>
     <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">It's 1850.<br> <br> You and your caravan are hoping to strike it rich
-              by surviving the Westward trek to Eureka, California during the height of
-              the gold rush. Test your wits and fitness by taking steps in the real world,
-              earning money for supplies, hunting for food, tending animals, and avoiding
-              dysentery, thieves, and other trail challenges! Remember, each step you and
-              your caravan members take brings you closer to Eureka where you can stake your
-              claim to Gold and assured fortune.</h1>
-            <!--<a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>-->
-          </div>
-        </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <img src="img/screens/noticeBoard.png" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">The Eureka Trails</h1>
+          <p class="lead mb-0">Welcome to the Eureka Trails!</p>
         </div>
       </div>
     </div>
   </header>
 
+<section>
+  <section class='bg-light page-section characterSection' id="intro">
+    <div class="container">
+      <h2 class="section-heading text-center">Begin your Expedition!</h2>
+      <div class="row">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h2><u>Choose a role</u></h2>
+            <h1 class="mb-5">
+              You and your caravan are hoping to strike it rich
+              by surviving the Westward trek to Eureka, California during the height of
+              the gold rush. Test your wits and fitness by taking steps in the real world,
+              earning money for supplies, hunting for food, tending animals, and avoiding
+              dysentery, thieves, and other trail challenges! Remember, each step you and
+              your caravan members take brings you closer to Eureka where you can stake your
+              claim to Gold and assured fortune
+               </h1>
+               </div>
+                      </div>
+                      <div class="col-sm-1 my-auto">
+                      </div>
+                      <div class="col-lg-4 my-auto">
+                        <div class="device-container">
+                          <div class="device-mockup iphone6_plus portrait white">
+                            <div class="device">
+                              <div class="screen">
+                                <img src="img/screens/chooseRole.png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+              <!--  <section class="container">-->
+<!--    <div class="container h-100">-->
+<!--      <div class="row h-100">-->
+<!--        <div class="col-lg-7 my-auto">-->
+<!--          <div class="header-content mx-auto">-->
+<!--            <h1 class="mb-5">It's 1850.<br> <br> You and your caravan are hoping to strike it rich-->
+<!--              by surviving the Westward trek to Eureka, California during the height of-->
+<!--              the gold rush. Test your wits and fitness by taking steps in the real world,-->
+<!--              earning money for supplies, hunting for food, tending animals, and avoiding-->
+<!--              dysentery, thieves, and other trail challenges! Remember, each step you and-->
+<!--              your caravan members take brings you closer to Eureka where you can stake your-->
+<!--              claim to Gold and assured fortune.</h1>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        </div>-->
+<!--        <div class="col-lg-5 my-auto">-->
+<!--          <div class="device-container">-->
+<!--            <div class="device-mockup iphone6_plus portrait white">-->
+<!--              <div class="device">-->
+<!--                <div class="screen">-->
+<!--                  <img src="img/screens/noticeBoard.png" class="img-fluid">-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+
+<!--  Download links for Android and Apple-->
   <section class="download bg-primary text-center" id="download">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <h2>Coming soon!</h2>
+          <h2>Coming Soon!</h2>
           <br>
           <div class="badges">
             <a class="badge-link" href="#"><img src="img/googlePlay.png"></a>
@@ -181,79 +237,6 @@
       </div>
     </div>
   </section>
-
-
-<!--  <section class="features" id="features">-->
-<!--    <div class="container">-->
-<!--      <h2 class="section-heading text-center">Key Features</h2>-->
-<!--      <div class="row">-->
-<!--        <div class="col-lg-4 my-auto">-->
-<!--          <div class="device-container">-->
-<!--            <div class="device-mockup iphone6_plus portrait white">-->
-<!--              <div class="device">-->
-<!--                <div class="screen">-->
-<!--                  &lt;!&ndash; Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! &ndash;&gt;-->
-<!--                  <img src="img/screens/noticeBoard.png" class="img-fluid">-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-8 my-auto">-->
-<!--          <div class="container-fluid">-->
-<!--            <div class="row">-->
-<!--              <div class="col-lg-6">-->
-<!--                <div class="feature-item">-->
-<!--                  <i class="fas fa-walking"></i>-->
-<!--                  &lt;!&ndash;<i class="icon-walking text-primary"></i>&ndash;&gt;-->
-<!--                  <h3>Active</h3>-->
-<!--                  <p class="text-muted">Encourages you to walk more</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              <div class="col-lg-6">-->
-<!--                <div class="feature-item">-->
-<!--                  <img class='icon' src='img/icons/co-op.png'>-->
-<!--                  <h3>Cooperative</h3>-->
-<!--                  <p class="text-muted">Play with friends, family, and everyone in between.</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="row">-->
-<!--              <div class="col-lg-6">-->
-<!--                <div class="feature-item">-->
-<!--                  <img class='icon' src='img/icons/story.png'>-->
-<!--                  <h3>Narrative</h3>-->
-<!--                  <p class="text-muted">Indulge yourself in a rich, strategic, and replayable narrative</p>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              <div class="col-lg-6">-->
-<!--                <div class="feature-item">-->
-<!--                  <img class='icon' src='img/icons/strategy.png'>-->
-<!--&lt;!&ndash;                  <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>&ndash;&gt;-->
-<!--                  </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
-
-<!--  <section class="iconSection text-center" id='keyFeatures'>-->
-<!--    <div class='container'>-->
-
-<!--      <h2 class="section-heading text-center">Key Features</h2>-->
-<!--      <br><br>-->
-
-<!--      <div class="row">-->
-<!--        <div class="col-lg-3 col-md-6 mb-5">-->
-<!--          <div class="avatar mx-auto">-->
-<!--            <img src="img/icons/strategy.png" class="rounded-circle z-depth-1">-->
-<!--          </div>-->
-<!--          <h3>Replayable</h3>-->
-<!--          <p class="text-muted">Enjoy fresh challenges that are personalized for different roles every time.</p>-->
-<!--        </div>-->
-<!--  </section>-->
 
   <section class="teamSection text-center" id='keyFeatures'>
     <div class='container'>
@@ -420,7 +403,6 @@
             <img src="img/team/default.png" class="rounded-circle z-depth-1">
           </div>
           <h4 class="font-weight-bold mt-3 mb-2">Lily Stice</h4>
-          <!-- <p class="grey-text mb-1"><strong>Frontend Developer</strong></p> -->
           <p class="grey-text mb-1">Web Developer</p>
         </div>
 
@@ -428,33 +410,17 @@
     </div>
   </section>
 
+<!--    Join the Adventure Section - Gray -->
   <section class="contact bg-primary" id="contact">
     <div class="container">
       <h2>Join the Adventure!</h2>
-      <ul class="list-inline list-social">
-<!--        <li class="list-inline-item social-twitter">-->
-<!--          <a href="#">-->
-<!--            <i class="fab fa-twitter"></i>-->
-<!--          </a>-->
-<!--        </li>-->
-        <li class="list-inline-item social-facebook">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-<!--        <li class="list-inline-item social-google-plus">-->
-<!--          <a href="#">-->
-<!--            <i class="fab fa-google-plus-g"></i>-->
-<!--          </a>-->
-<!--        </li>li-->
-      </ul>
     </div>
   </section>
 
   <!-- Bottom Black Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; The Eureka Trail 2020. All Rights Reserved.</p>
+      <div>
+        <p>&copy; The Eureka Trail 2020. All Rights Reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
           <a target="_blank" href="/files/privacy_policy.pdf">Privacy</a>
@@ -465,8 +431,33 @@
 <!--        <li class="list-inline-item">-->
 <!--          <a href="#">FAQ</a>-->
         </li>
+        <div class="container">
+          <div class="col-md-4"></div>
+
+<!--              <li class="list-inline-item">-->
+<!--                <a href="#">-->
+<!--                  <i class="fab fa-twitter"></i>-->
+<!--                </a>-->
+<!--              </li>-->
+<!--              <li class="list-inline-item">-->
+<!--                <a href="#">-->
+<!--                  <i class="fab fa-facebook-f"></i>-->
+<!--                </a>-->
+<!--              </li>-->
+<!--              <li class="list-inline-item">-->
+<!--                <a href="#">-->
+<!--                  <i class="fab fa-linkedin-in"></i>-->
+<!--                </a>-->
+<!--              </li>-->
+
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+          </div>
       </ul>
-    </div>
+      </div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
@@ -478,6 +469,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+
+  </section>
 
 </body>
 
