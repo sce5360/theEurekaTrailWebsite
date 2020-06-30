@@ -30,23 +30,6 @@
   <link href="css/new-age.css" rel="stylesheet">
 </head>
 
-
-<!-- Video Header -->
-<header>
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="img/video/TheEurekaTrailPromoVideo.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white">
-        <h1 class="display-3">The Eureka Trails</h1>
-        <p class="lead mb-0">Welcome to the Eureka Trails!</p>
-      </div>
-    </div>
-  </div>
-</header>
-
 <body id="page-top">
 
 <!-- Navigation -->
@@ -78,13 +61,25 @@
   </div>
 </nav>
 
+<section>
+  <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="img/video/TheEurekaTrailPromoVideo.mp4"></iframe>
+  </div>
+
+  <!-- 4:3 aspect ratio -->
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="img/video/TheEurekaTrailPromoVideo.mp4"></iframe>
+  </div>
+</section>
+
 <section class='bg-light page-section characterSection' id="intro">
   <div class="container">
-    <h2 class="section-heading text-center">Begin your Expedition!</h2>
+    <h2 class="section-heading text-center">The Expedition of a Lifetime</h2>
     <div class="row">
       <div class="col-lg-7 my-auto">
         <div class="header-content mx-auto">
-          <h2><u>Choose a role</u></h2>
+          <br><br>
           <h1 class="mb-5">
             You and your caravan are hoping to strike it rich
             by surviving the Westward trek to Eureka, California during the height of
@@ -114,36 +109,6 @@
     </div>
   </div>
 </section>
-
-<!--  <section class="container">-->
-<!--    <div class="container h-100">-->
-<!--      <div class="row h-100">-->
-<!--        <div class="col-lg-7 my-auto">-->
-<!--          <div class="header-content mx-auto">-->
-<!--            <h1 class="mb-5">It's 1850.<br> <br> You and your caravan are hoping to strike it rich-->
-<!--              by surviving the Westward trek to Eureka, California during the height of-->
-<!--              the gold rush. Test your wits and fitness by taking steps in the real world,-->
-<!--              earning money for supplies, hunting for food, tending animals, and avoiding-->
-<!--              dysentery, thieves, and other trail challenges! Remember, each step you and-->
-<!--              your caravan members take brings you closer to Eureka where you can stake your-->
-<!--              claim to Gold and assured fortune.</h1>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        </div>-->
-<!--        <div class="col-lg-5 my-auto">-->
-<!--          <div class="device-container">-->
-<!--            <div class="device-mockup iphone6_plus portrait white">-->
-<!--              <div class="device">-->
-<!--                <div class="screen">-->
-<!--                  <img src="img/screens/noticeBoard.png" class="img-fluid">-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
 
 <!--  Download links for Android and Apple-->
 <section class="download bg-primary text-center" id="download">
@@ -305,18 +270,7 @@
             <img src="img/team/d.Hansen_Face.png" class="rounded-circle z-depth-1">
           </div>
           <h3 class="font-weight-bold mt-3 mb-2">Derek Hansen</h3>
-          <!-- <p class="grey-text"><strong>Wagon Master</strong></p> -->
           <p class="grey-text">Creative Director</p>
-        </div>
-
-        <!-- Tevin -->
-        <div class="col-lg-3 col-md-6 mb-5">
-          <div class="avatar mx-auto">
-            <img src="img/team/tevinStewart.png" class="rounded-circle z-depth-1">
-          </div>
-          <h3 class="font-weight-bold mt-3 mb-2">Tevin Stewart</h3>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Technical Lead</p>
         </div>
 
         <!-- Camilla -->
@@ -325,59 +279,18 @@
             <img src="img/team/default.png" class="rounded-circle z-depth-1">
           </div>
           <h3 class="font-weight-bold mt-3 mb-2">Camilla Clark</h3>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
           <p class="grey-text mb-1">Game and UX Designer</p>
         </div>
 
-        <!-- Connor -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-          <div class="avatar mx-auto">
-            <img src="img/team/connorElliott.png" class="rounded-circle z-depth-1">
-          </div>
-          <h3 class="font-weight-bold mt-3 mb-2">Connor Elliott</h3>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Software Developer</p>
-        </div>
-
-        <!-- Audrey -->
+        <!-- Tevin -->
         <div class="col-lg-3 col-md-6 mb-5">
           <div class="avatar mx-auto">
-            <img src="img/team/default.png" class="rounded-circle z-depth-1">
+            <img src="img/team/tevinStewart.png" class="rounded-circle z-depth-1">
           </div>
-          <h4 class="font-weight-bold mt-3 mb-2">Audrey Snyder</h4>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Writer & UX Designer</p>
+          <h3 class="font-weight-bold mt-3 mb-2">Tevin Stewart</h3>
+          <p class="grey-text mb-1">Technical Lead</p>
         </div>
 
-        <!-- Minami -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-          <div class="avatar mx-auto">
-            <img src="img/team/minami.png" class="rounded-circle z-depth-1">
-          </div>
-          <h4 class="font-weight-bold mt-3 mb-2">Minami Ford</h4>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Writer & Artist</p>
-        </div>
-
-        <!-- Jamie -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-          <div class="avatar mx-auto">
-            <img src="img/team/default.png" class="rounded-circle z-depth-1">
-          </div>
-          <h4 class="font-weight-bold mt-3 mb-2">Jamie Fjerstad</h4>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Visual Designer</p>
-        </div>
-
-        <!-- Nathaniel -->
-        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
-          <div class="avatar mx-auto">
-            <img src="img/team/nathanielWasden.png" class="rounded-circle z-depth-1">
-          </div>
-          <h4 class="font-weight-bold mt-3 mb-2">Nathaniel Wasden</h4>
-          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
-          <p class="grey-text mb-1">Music and Sound Composer</p>
-        </div>
 
         <!-- Aatish -->
         <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
@@ -396,6 +309,55 @@
           <h4 class="font-weight-bold mt-3 mb-2">Spencer Tuft</h4>
           <!-- <p class="grey-text mb-1"><strong>Frontend Developer</strong></p> -->
           <p class="grey-text mb-1">Lead Mobile Developer</p>
+        </div>
+
+        <!-- Minami -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="img/team/minami.png" class="rounded-circle z-depth-1">
+          </div>
+          <h4 class="font-weight-bold mt-3 mb-2">Minami Ford</h4>
+          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
+          <p class="grey-text mb-1">Writer & Artist</p>
+        </div>
+
+        <!-- Audrey -->
+        <div class="col-lg-3 col-md-6 mb-5">
+          <div class="avatar mx-auto">
+            <img src="img/team/default.png" class="rounded-circle z-depth-1">
+          </div>
+          <h4 class="font-weight-bold mt-3 mb-2">Audrey Snyder</h4>
+          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
+          <p class="grey-text mb-1">Writer & UX Designer</p>
+        </div>
+
+        <!-- Jamie -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="img/team/default.png" class="rounded-circle z-depth-1">
+          </div>
+          <h4 class="font-weight-bold mt-3 mb-2">Jamie Fjerstad</h4>
+          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
+          <p class="grey-text mb-1">Visual Designer</p>
+        </div>
+
+        <!-- Connor -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="img/team/connorElliott.png" class="rounded-circle z-depth-1">
+          </div>
+          <h3 class="font-weight-bold mt-3 mb-2">Connor Elliott</h3>
+          <!-- <p class="grey-text mb-1"><strong>Title One</strong></p> -->
+          <p class="grey-text mb-1">Software Developer</p>
+        </div>
+
+        <!-- Nathaniel -->
+        <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+          <div class="avatar mx-auto">
+            <img src="img/team/nathanielWasden.png" class="rounded-circle z-depth-1">
+          </div>
+          <h4 class="font-weight-bold mt-3 mb-2">Nathan Wasden</h4>
+          <p class="grey-text mb-1">Music and Sound Composer</p>
         </div>
 
         <!-- Kainalu -->
@@ -422,14 +384,16 @@
 </section>
 
 <!--    Join the Adventure Section - Gray -->
-<section class="contact bg-primary" id="play">
+<section class="download bg-primary text-center" id="play">
   <div class="container">
-    <div class="w-100 text-black">
-      <h2>Join the Adventure!</h2>
-      <br>
-      <div class="badges">
-        <a class="badge-link" href="#"><img src="img/googlePlay.png"></a>
-        <a class="badge-link" href="#"><img src="img/appStore.png"></a>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2>Join the Adventure</h2>
+        <br>
+        <div class="badges">
+          <a class="badge-link" href="#"><img src="img/googlePlay.png"></a>
+          <a class="badge-link" href="#"><img src="img/appStore.png"></a>
+        </div>
       </div>
     </div>
   </div>
