@@ -56,9 +56,21 @@ section h2 {
   font-size: 50px;
 }
 
+.embed-responsive{
+  margin: 0 auto;
+  /*padding-left: 100px;*/
+  /*padding-right: 100px;*/
+  border: 50px solid #ddd;
+  alignment: center;
+}
+
+.embed-responsive-16by9{
+
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color: white;
+  background-color: burlywood;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -466,3 +478,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+
