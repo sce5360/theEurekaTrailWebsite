@@ -25,13 +25,16 @@ hr.light {
   border-color: white;
 }
 
-h1,
+h1{
+  text-transform: uppercase;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 1px;
 }
