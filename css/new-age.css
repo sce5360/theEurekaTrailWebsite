@@ -62,15 +62,15 @@ section h2 {
   background-color: burlywood;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-weight: 300;
+  letter-spacing:2px;
 }
 
 #mainNav .navbar-brand {
   color: #8c8a88;
   font-family: 'VT323', monospace;
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
