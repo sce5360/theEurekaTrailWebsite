@@ -6,12 +6,12 @@ body {
 }
 
 a {
-  color: white;
+  color: #000000;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: white;
+  color: #000000;
 }
 
 hr {
@@ -26,15 +26,23 @@ hr.light {
 }
 
 h1{
-
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 h2 {
   text-transform: uppercase;
-}
-h3,
-h4{
   font-size: 27px;
+}
+h3
+{
+  font-size: 30px;
+
+}
+h4{
+
+  font-size: 35px;
+
 }
 h5,
 h6 {
@@ -218,38 +226,38 @@ header.masthead .device-container .screen img {
 }
 
 
-section.download {
+section.coming_soon {
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
-section.download h2 {
+section.coming_soon h2 {
   font-size: 50px;
   margin-top: 0;
 }
 
-section.download .badges .badge-link {
+section.coming_soon .badges .badge-link {
   display: block;
   margin-bottom: 25px;
 }
 
-section.download .badges .badge-link:last-child {
+section.coming_soon .badges .badge-link:last-child {
   margin-bottom: 0;
 }
 
-section.download .badges .badge-link img {
+section.coming_soon .badges .badge-link img {
   height: 60px;
 }
 
 @media (min-width: 768px) {
-  section.download .badges .badge-link {
+  section.coming_soon .badges .badge-link {
     display: inline-block;
     margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
-  section.download h2 {
+  section.coming_soon h2 {
     font-size: 70px;
   }
 }
@@ -466,6 +474,22 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0px;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  padding-left: 15px;
+  padding-right: 15px;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 
