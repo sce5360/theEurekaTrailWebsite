@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #b1dfbb;
   transition: all .35s;
 }
 
@@ -67,30 +67,28 @@ section h2 {
 
 .fa {
   padding: 20px;
-  font-size: 40px;
+  /*font-size: 40px;*/
   width: 50px;
   text-align: center;
   text-decoration: none;
 }
 
-/*!* Add a hover effect if you want *!*/
-/*.fa:hover {*/
-/*  opacity: 0.7;*/
-/*}*/
+/* Add a hover effect if you want */
+.fa-hover {
+  opacity: 0.7;
+}
 
-/*!* Set a specific color for each brand *!*/
+/* Set a specific color for each brand */
 
-/*!* Facebook *!*/
-/*.fa-instagram {*/
-/*  background: #3B5998;*/
-/*  color: white;*/
-/*}*/
+/* Facebook */
+.fa-instagram {
+  color: #8C442A;
+}
 
-/*!* Twitter *!*/
-/*.fa-twitter {*/
-/*  background: #55ACEE;*/
-/*  color: white;*/
-/*}*/
+/* Twitter */
+.fa-twitter {
+  color: #8C442A;
+}
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -209,7 +207,6 @@ header.masthead {
   padding-bottom: 100px;
   /*font color*/
   color: black;
-  /*background: url("../img/bg-pattern.png"), #7b4397;*/
   background: url("#"), linear-gradient(to left, #8C442A, #593325);
 }
 
@@ -252,7 +249,6 @@ header.masthead .device-container .screen img {
   }
 }
 
-
 section.coming_soon {
   position: relative;
   padding: 100px 0;
@@ -263,21 +259,21 @@ section.coming_soon h2 {
   margin-top: 0;
 }
 
-section.coming_soon .badges .badge-link {
+section.coming_soon .download .download-link {
   display: block;
   margin-bottom: 25px;
 }
 
-section.coming_soon .badges .badge-link:last-child {
+section.coming_soon .download .download-link:last-child {
   margin-bottom: 0;
 }
 
-section.coming_soon .badges .badge-link img {
+section.coming_soon .download .download-link img {
   height: 60px;
 }
 
 @media (min-width: 768px) {
-  section.coming_soon .badges .badge-link {
+  section.coming_soon .download .download-link {
     display: inline-block;
     margin-bottom: 0;
   }
@@ -399,29 +395,29 @@ section.contact ul.list-social li a {
   border-radius: 100%;
 }
 
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
-}
+/*section.contact ul.list-social li.social-twitter a {*/
+/*  background-color: #1da1f2;*/
+/*}*/
 
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
-}
+/*section.contact ul.list-social li.social-twitter a:hover {*/
+/*  background-color: #0d95e8;*/
+/*}*/
 
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
-}
+/*section.contact ul.list-social li.social-facebook a {*/
+/*  background-color: #3b5998;*/
+/*}*/
 
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
+/*section.contact ul.list-social li.social-facebook a:hover {*/
+/*  background-color: #344e86;*/
+/*}*/
 
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
-}
+/*section.contact ul.list-social li.social-google-plus a {*/
+/*  background-color: #dd4b39;*/
+/*}*/
 
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
-}
+/*section.contact ul.list-social li.social-google-plus a:hover {*/
+/*  background-color: #d73925;*/
+/*}*/
 
 #page-container {
   position: absolute;
