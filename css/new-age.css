@@ -139,7 +139,7 @@ section h2 {
   }
   /*navbar menu labels */
   #mainNav .navbar-brand {
-    color: fade(white, 70%);
+    color: fade(white, 20%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: black;
