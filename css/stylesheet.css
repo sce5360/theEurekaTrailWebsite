@@ -738,14 +738,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 #ChildsCutoff:hover {opacity: 0.7;}
 
-.img{
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  padding: 5px;
-}
-
-.img:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -797,8 +789,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 /* The Close Button */
 .close {
   position: absolute;
-  top: 70px;
-  right: 35px;
+  padding-top: 0%;
+  right: 23%;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
