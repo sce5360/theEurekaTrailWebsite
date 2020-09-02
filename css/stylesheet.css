@@ -143,6 +143,7 @@ section h2 {
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: black;
+    opacity: 0.7;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
@@ -151,6 +152,7 @@ section h2 {
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
     color: black;
+    opacity: 0.7;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
@@ -489,12 +491,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
   padding: 0 4px;
+
 }
 
 /* Create two equal columns that sits next to each other */
 .columnForSponsor {
   -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
+  flex: 20%;
   padding: 0 4px;
 }
 
@@ -519,43 +522,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   }
 }
 
-/*Behind the Scenes CSS */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/*Behind the Scences*/
+/*Behind the Scenes*/
 /* Style the Image Used to Trigger the Modal */
 #cover {
   border-radius: 5px;
