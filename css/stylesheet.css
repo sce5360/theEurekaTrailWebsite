@@ -757,7 +757,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 /* The Close Button */
 .close {
   position: absolute;
-  padding-top: 0%;
+  /*padding-top: 0%;*/
+  width: 10%;
   right: 23%;
   color: #f1f1f1;
   font-size: 40px;
