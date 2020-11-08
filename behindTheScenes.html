@@ -73,6 +73,7 @@
     <div class="rights">
         <h1> Image Rights</h1>
         <!-- Trigger the Modal -->
+
         <img id="cover" src="img/ImageRights/Gary%20Stone.gif" alt="Cover (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
         <img id="FortKearney" src="img/ImageRights/FortKearney.gif" alt="Fort Kearney (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
         <img id="FortBridger" src="img/ImageRights/FortBridger.png" alt="Fort Bridger (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
@@ -94,8 +95,14 @@
 Year : 1837" style="width:100%;max-width:400px">
         <img id="FortHall" src="img/ImageRights/FortHall.gif" alt="Fort Hall -- Creator: Henry Warre -- Source Location: The Western Pursuit of the American Dream, pg. 200
 Year : 1848" style="width:100%;max-width:400px">
-        <img id="Eureka" src="img/ImageRights/Eureka.gif" alt="Eureka -- Creator: Currier and Ives -- Year : 1871" style="width:100%;max-width:400px">
-        <img id="ChildsCutoff" src="img/ImageRights/childsCutoff.png" alt="Child's Cutoff -- Creator: Albert Bierstadt -- Year : 1869" style="width:100%;max-width:400px">
+        <img id="Eureka" src="img/ImageRights/Eureka.gif" alt="Eureka -- Creator: Currier and Ives -- Year : 1871" style="width:100%;max-width:400px"><img id="ChildsCutoff" src="img/ImageRights/childsCutoff.png" alt="Child's Cutoff -- Creator: Albert Bierstadt -- Year : 1869" style="width:100%;max-width:400px">
+
+        <img id="abe" src="img/ImageRights/peopleImg/P_Abe_F.gif" alt="Abe" style="width:100%;max-width:400px">
+        <img id="alex" src="img/ImageRights/peopleImg/P_Alexander_F.gif" alt="Alexander" style="width:100%;max-width:400px">
+        <img id="clara" src="img/ImageRights/peopleImg/P_Clara_F.gif" alt="Clara" style="width:100%;max-width:400px">
+        <img id="edward" src="img/ImageRights/peopleImg/P_Edward_F.gif" alt="Edward" style="width:100%;max-width:400px">
+        <img id="eliza" src="img/ImageRights/peopleImg/P_Eliza_F.gif" alt="Eliza" style="width:100%;max-width:400px">
+        <img id="ellie" src="img/ImageRights/peopleImg/P_Ellie_F.gif" alt="Ellie" style="width:100%;max-width:400px">
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -147,7 +154,38 @@ Year : 1848" style="width:100%;max-width:400px">
     var modal = document.getElementById("myModal");
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
+
     var gary = document.getElementById("cover");
+    var abe = document.getElementById("Abe");
+    var alexander = document.getElementById("Alexander");
+    var clara = document.getElementById("Clara");
+    var edward = document.getElementById("Edward");
+    var eliza = document.getElementById("Eliza");
+    var ellie = document.getElementById("Ellie");
+    var fred = document.getElementById("Fred");
+    var george = document.getElementById("George");
+    var harry = document.getElementById("Harry");
+    var henry = document.getElementById("Henry");
+    var honora = document.getElementById("Honora");
+    var ida = document.getElementById("Ida");
+    var isaac = document.getElementById("Isaac");
+    var james = document.getElementById("James");
+    var jemina = document.getElementById("Jemina");
+    var jimBridger = document.getElementById("JimBridger");
+    var lydia = document.getElementById("Lydia");
+    var margaret = document.getElementById("Margaret");
+    var nathan = document.getElementById("Nathan");
+    var phillip = document.getElementById("Phillip");
+    var richard = document.getElementById("Richard");
+    var rose = document.getElementById("Rose");
+    var samantha = document.getElementById("Samantha");
+    var samuel = document.getElementById("Samuel");
+    var stephen = document.getElementById("Stephen");
+    var thomas = document.getElementById("Thomas");
+    var walter = document.getElementById("Walter");
+    var willy = document.getElementById("Willy");
+
+
     var FortKearney = document.getElementById("FortKearney");
     var FortBridger = document.getElementById("FortBridger");
     var HumboldtRiverSettlement = document.getElementById("HumboldtRiverSettlement");
@@ -172,6 +210,7 @@ Year : 1848" style="width:100%;max-width:400px">
 
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
+
 
     gary.onclick = function(){
         modal.style.display = "block";
@@ -270,6 +309,41 @@ Year : 1848" style="width:100%;max-width:400px">
         captionText.innerHTML = this.alt;
     }
     ChildsCutoff.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    abe.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    alexander.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    clara.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    edward.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    eliza.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    ellie.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+    fred.onclick = function(){
         modal.style.display = "block";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
