@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="/img/icons/Logo.png"/>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -19,11 +19,150 @@
     <!--  Pixelated font-->
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
     <!-- Custom styles for this template -->
     <link href="css/stylesheet.css" rel="stylesheet">
+    <style scoped>
+
+        .new {
+            background: rgb(248, 175, 175) !important;
+        }
+
+        .navbar {
+            background-color: rgb(206, 171, 126) !important;
+        }
+
+        body {
+            background-color: #faeacc !important;
+        }
+
+        .modal-content {
+            width: 80%;
+        }
+
+        .modal-backdrop {
+            display: none;
+            z-index: 1020 !important;
+        }
+    
+        .modal-dialog {
+            height: auto !important;
+            z-index: 1020 !important;
+        }
+        .modal-content {
+            height: auto !important;
+            z-index: 1020 !important;
+        }
+        .body {
+            padding: 20px;
+        }
+    
+        img {
+            border-radius: 8px;
+            border: none !important;
+        }
+    
+        .right {
+            background: blue;
+            width: 100px;
+            height: 300px;
+        }
+    
+        .left {
+            background: red;
+            width: 100px;
+            height: 300px;
+        }
+    
+        .flex {
+            width: 100%;
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+    
+        #park {
+            width: 40%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            float: left;
+        }
+    
+        #parkdes {
+            width: 400px;
+            float: left;
+            padding-left: 30px;
+            margin-top: 0px;
+        }
+    
+        .card {
+            margin-top: 10px;
+            width: 540px !important;
+            border: none;
+            padding: none !important;
+        }
+    
+        .card-body {
+            padding-bottom: 0px;
+            padding-top: 7px;
+        }
+        .cardDim {
+            width: 32% !important;
+            transition: all 0.4s;
+            height: auto;
+        }
+    
+        @media only screen and (max-width: 800px) {
+            .cardDim {
+                width: 47% !important;
+            }
+        }
+    
+        .cardDim:hover {
+            cursor: pointer;
+            box-shadow: 5px 5px 100px black;
+        }
+    
+        .activity {
+            width: 100% !important;
+            transition: all 0.3s;
+        }
+    
+        .about {
+            max-width: 600px;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+    
+        .descript {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .alert {
+            background: rgb(178, 213, 236);
+            color: black;
+            text-align: left;
+        }
+    
+        h1 {
+            color: rgb(13, 77, 173);
+        }
+        
+        .close {
+           right: 7% !important;
+           color: black !important;
+        }
+
+        body.modal-open {
+            position: relative;
+            right: 0;
+            left: 0;
+            overflow-y: scroll;
+        }
+    
+    </style>
 </head>
 
 <body id="page-top">
@@ -44,7 +183,7 @@
               <a class="nav-link" href="index.html#download">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#keyFeatures">Key Features</a>
+              <a class="nav-link" href="index.html#keyFeatures">Features</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#game">Gameplay</a>
@@ -53,7 +192,7 @@
               <a class="nav-link" href="index.html#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=index.htmlbehindTheScenes.html>Behind the Scenes</a>
+              <a class="nav-link" href="#">Images</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html#sponsors">Sponsors</a>
@@ -62,58 +201,348 @@
         </div>
       </nav>
 
-<!--Rights-->
-<section>
+<section style="margin-top:80px; display:inline-flex;flex-wrap: wrap; justify-content: space-evenly;">
 
-    <div class="rights">
-        <h1> Image Rights</h1>
-        <!-- Trigger the Modal -->
+      <div class="card cardDim" data-toggle="modal" data-target="#one" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\BearLakeRoad.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Bear Lake Road</h5>
+        </div>
+    </div>
 
-        <img id="cover" src="img/ImageRights/Gary%20Stone.gif" alt="Cover (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="FortKearney" src="img/ImageRights/FortKearney.gif" alt="Fort Kearney (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="FortBridger" src="img/ImageRights/FortBridger.png" alt="Fort Bridger (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="HumboldtRiverSettlement" src="img/ImageRights/HumboldtRiverSettlement.gif" alt=" Humboldt River Settlement (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="WesportRoad" src="img/ImageRights/WesportRoad.gif" alt="Wesport Road (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="MitchellPass" src="img/ImageRights/MitchellPass.gif" alt="Mitchell Pass (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="BearLakeRoad" src="img/ImageRights/BearLakeRoad.gif" alt="Bear Lake Road (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="SnakeRiverPath" src="img/ImageRights/SnakeRiverPath.gif" alt="Snake River Path (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="TruckeeRoute" src="img/ImageRights/TruckeeRoute.png" alt="TruckeeRoute (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="SierraNevadaRoute" src="img/ImageRights/SierraNevadaRoute.gif" alt=" SierraNevadaRoute (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="horse" src="img/ImageRights/Horse.gif" alt="Horse (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="ox" src="img/ImageRights/Ox.gif" alt="Ox (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="mule" src="img/ImageRights/Mule.gif" alt="Mule (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
-        <img id="dog" src="img/ImageRights/Dog.gif" alt="Dog (Gary Stone - National Oregon/California Trail Center)" style="width:100%;max-width:400px">
+      <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Bear Lake Road</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\BearLakeRoad.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
 
-        <img id="independence" src="img/ImageRights/independence.gif" alt="Independence - Public Domain Creator: Unknown Year : 1855" style="width:100%;max-width:400px">
-        <img id="reno" src="img/ImageRights/reno.png" alt="Reno - Public Domain Creator: John Mix Stanley -- Source Location: Amon Carter Museum of American ArtYear : c. 1850-52" style="width:100%;max-width:400px">
-        <img id="FortLaramie" src="img/ImageRights/Fort%20Laramie.gif" alt="Fort Laramie -- Creator: Alfred Jacob Miller -- Source Location: History of the American West, pg. 50
-Year : 1837" style="width:100%;max-width:400px">
-        <img id="FortHall" src="img/ImageRights/FortHall.gif" alt="Fort Hall -- Creator: Henry Warre -- Source Location: The Western Pursuit of the American Dream, pg. 200
-Year : 1848" style="width:100%;max-width:400px">
-        <img id="Eureka" src="img/ImageRights/Eureka.gif" alt="Eureka -- Creator: Currier and Ives -- Year : 1871" style="width:100%;max-width:400px"><img id="ChildsCutoff" src="img/ImageRights/childsCutoff.png" alt="Child's Cutoff -- Creator: Albert Bierstadt -- Year : 1869" style="width:100%;max-width:400px">
+    <div class="card cardDim" data-toggle="modal" data-target="#two" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\childsCutoff.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Child's Cutoff</h5>
+        </div>
+    </div>
 
-        <img id="abe" src="img/ImageRights/peopleImg/P_Abe_F.gif" alt="Abe" style="width:100%;max-width:400px">
-        <img id="alex" src="img/ImageRights/peopleImg/P_Alexander_F.gif" alt="Alexander" style="width:100%;max-width:400px">
-        <img id="clara" src="img/ImageRights/peopleImg/P_Clara_F.gif" alt="Clara" style="width:100%;max-width:400px">
-        <img id="edward" src="img/ImageRights/peopleImg/P_Edward_F.gif" alt="Edward" style="width:100%;max-width:400px">
-        <img id="eliza" src="img/ImageRights/peopleImg/P_Eliza_F.gif" alt="Eliza" style="width:100%;max-width:400px">
-        <img id="ellie" src="img/ImageRights/peopleImg/P_Ellie_F.gif" alt="Ellie" style="width:100%;max-width:400px">
+      <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Child's Cutoff</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\childsCutoff.png"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="card cardDim" data-toggle="modal" data-target="#three" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Dog.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Dog</h5>
+        </div>
+    </div>
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
+      <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Dog</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Dog.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="card cardDim" data-toggle="modal" data-target="#four" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Eureka.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Eureka</h5>
+        </div>
+    </div>
 
-            <!-- The Close Button -->
-            <span class="close">&times;</span>
+      <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Eureka</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Eureka.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="card cardDim" data-toggle="modal" data-target="#five" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Fort Laramie.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Fort Laramie</h5>
+        </div>
+    </div>
 
-            <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
+      <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Fort Laramie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Fort Laramie.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="card cardDim" data-toggle="modal" data-target="#six" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\FortBridger.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Fort Bridger</h5>
+        </div>
+    </div>
 
-            <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
+      <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Fort Bridger</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\FortBridger.png"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="card cardDim" data-toggle="modal" data-target="#seven" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\FortHall.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Fort Hall</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Fort Hall</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\FortHall.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#eight" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\FortKearney.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Fort Kearney</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Fort Kearney</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\FortKearney.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#nine" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Horse.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Horse</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="nine" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Horse</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Horse.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#ten" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\independence.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Independence</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="ten" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Independence</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\independence.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#eleven" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\MitchellPass.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Mitchell Pass</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="eleven" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mitchell Pass</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\MitchellPass.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#twelve" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Mule.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Mule</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="twelve" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Mule</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Mule.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#thirteen" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\Ox.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Ox</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Ox</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\Ox.gif"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#fourteen" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\reno.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Reno</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="fourteen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Reno</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\reno.png"><br><br>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card cardDim" data-toggle="modal" data-target="#fifteen" style="width: 18rem;">
+        <img class="card-img-top" src="img\ImageRights\SnakeRiverPath.gif" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Snake River Path</h5>
+        </div>
+    </div>
+
+      <div class="modal fade" id="fifteen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Snake River Path</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="activity" src="img\ImageRights\SnakeRiverPath.gif"><br><br>
+            </div>
+            </div>
         </div>
     </div>
 </section>
-
 
 <!-- Bottom Brown Footer -->
 <footer>
@@ -132,228 +561,8 @@ Year : 1848" style="width:100%;max-width:400px">
         </ul>
     </div>
 </footer>
-
-<!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!--&lt;!&ndash; Custom scripts for this template &ndash;&gt;-->
-<!--<script src="js/new-age.min.js"></script>-->
-
-
-<script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-
-    var gary = document.getElementById("cover");
-    var abe = document.getElementById("Abe");
-    var alexander = document.getElementById("Alexander");
-    var clara = document.getElementById("Clara");
-    var edward = document.getElementById("Edward");
-    var eliza = document.getElementById("Eliza");
-    var ellie = document.getElementById("Ellie");
-    var fred = document.getElementById("Fred");
-    var george = document.getElementById("George");
-    var harry = document.getElementById("Harry");
-    var henry = document.getElementById("Henry");
-    var honora = document.getElementById("Honora");
-    var ida = document.getElementById("Ida");
-    var isaac = document.getElementById("Isaac");
-    var james = document.getElementById("James");
-    var jemina = document.getElementById("Jemina");
-    var jimBridger = document.getElementById("JimBridger");
-    var lydia = document.getElementById("Lydia");
-    var margaret = document.getElementById("Margaret");
-    var nathan = document.getElementById("Nathan");
-    var phillip = document.getElementById("Phillip");
-    var richard = document.getElementById("Richard");
-    var rose = document.getElementById("Rose");
-    var samantha = document.getElementById("Samantha");
-    var samuel = document.getElementById("Samuel");
-    var stephen = document.getElementById("Stephen");
-    var thomas = document.getElementById("Thomas");
-    var walter = document.getElementById("Walter");
-    var willy = document.getElementById("Willy");
-
-
-    var FortKearney = document.getElementById("FortKearney");
-    var FortBridger = document.getElementById("FortBridger");
-    var HumboldtRiverSettlement = document.getElementById("HumboldtRiverSettlement");
-    var WesportRoad = document.getElementById("WesportRoad");
-    var MitchellPass = document.getElementById("MitchellPass");
-    var BearLakeRoad = document.getElementById("BearLakeRoad");
-    var SnakeRiverPath = document.getElementById("SnakeRiverPath");
-    var TruckeeRoute = document.getElementById("TruckeeRoute");
-    var SierraNevadaRoute = document.getElementById("SierraNevadaRoute");
-    var horse = document.getElementById("horse");
-    var ox = document.getElementById("ox");
-    var mule = document.getElementById("mule");
-    var dog = document.getElementById("dog");
-
-    var independence = document.getElementById("independence");
-    var reno = document.getElementById("reno");
-    var FortLaramie = document.getElementById("FortLaramie");
-    var FortHall = document.getElementById("FortHall");
-    var Eureka = document.getElementById("Eureka");
-    var ChildsCutoff = document.getElementById("ChildsCutoff");
-
-
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-
-
-    gary.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    FortKearney.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    FortBridger.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    HumboldtRiverSettlement.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    WesportRoad.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    MitchellPass.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    BearLakeRoad.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    SnakeRiverPath.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    TruckeeRoute.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    SierraNevadaRoute.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    horse.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    ox.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    mule.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    dog.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-    independence.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    reno.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    FortLaramie.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    FortHall.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    Eureka.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    ChildsCutoff.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    abe.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    alexander.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    clara.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    edward.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    eliza.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    ellie.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-    fred.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-    }
-
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-</script>
-
 </body>
 
 </html>

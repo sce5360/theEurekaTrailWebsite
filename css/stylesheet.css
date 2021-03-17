@@ -10,6 +10,11 @@ body {
 -webkit-transition-duration: .35s;
   -o-transition-duration: .35s;
      transition-duration: .35s;
+     font-size: 20px;
+}
+
+.navbar {
+  background-color: rgb(206, 171, 126) !important;
 }
 
 a {
@@ -53,7 +58,7 @@ a:hover, a:focus {
 }
 
 .nav-link:hover {
-  font-size: 20px !important;
+  font-size: 21px !important;
 }
 
 
@@ -220,7 +225,7 @@ section h2 {
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
   color:black;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 @media (min-width: 992px) {
@@ -522,8 +527,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #F2DDB6;
-  background: linear-gradient(#F2DDB6, #F2DDB6);
+  background: #f7e7cb;
+  background: linear-gradient(#fcedd1, #fae9c8);
 }
 
 .text-primary {
@@ -536,7 +541,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .beginTrek {
-  background: linear-gradient(#F2DDB6, #F2DDB6)
+  background: #f7e9d1;
 }
 .btn-outline {
   color: white;

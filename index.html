@@ -48,7 +48,7 @@
             <a class="nav-link" href="#download">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#keyFeatures">Key Features</a>
+            <a class="nav-link" href="#keyFeatures">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#gameplay">Gameplay</a>
@@ -57,10 +57,10 @@
             <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=behindTheScenes.html>Behind the Scenes</a>
+            <a class="nav-link" href="#sponsors">Sponsors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sponsors">Sponsors</a>
+            <a class="nav-link" href=behindTheScenes.html>Images</a>
           </li>
         </ul>
       </div>
@@ -154,7 +154,7 @@
     <div class="container">
       <div class="">
         <div class="col-md-8 mx-auto">
-          <h2>Coming Summer 2021!</h2>
+          <h2>Coming Soon!</h2>
           <br>
           <div class="download">
             <a class="download-link" href="#"><img src="img/googlePlay.png"></a>
@@ -173,7 +173,7 @@
   <!--Key Features-->
   <section class="keyFeatures text-center" id='keyFeatures'>
     <div class='container'>
-      <h2 class="section-heading text-center">Key Features</h2>
+      <h2 class="section-heading text-center">Features</h2>
       <br><br>
       <div class="row">
 
@@ -441,6 +441,14 @@
 <!-- Custom scripts for this template -->
 <script src="js/new-age.min.js"></script>
 <!--<script src="index.js"></script> -->
+
+<script>
+   $(document).on('click', '.navbar-collapse.in', function (e) {
+    if ($(e.target).is('a')) {
+        $(this).collapse('hide');
+    }
+});
+</script>
 
 </body>
 
