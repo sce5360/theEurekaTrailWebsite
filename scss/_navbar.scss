@@ -24,9 +24,9 @@
                 @include alt-font;
                 &.active {
                     color: $theme-primary !important;
-                    background-color: transparent;
+                    background-color: white;
                     &:hover {
-                        background-color: transparent;
+                        background-color: white;
                     }
                 }
             }
@@ -40,8 +40,8 @@
         }
     }
     @media (min-width: 992px) {
-        border-color: transparent;
-        background-color: transparent;
+        border-color: white;
+        background-color: white;
         .navbar-brand {
             color: fade(white, 70%);
             &:hover,

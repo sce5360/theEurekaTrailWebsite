@@ -5638,7 +5638,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .close {
-  float: right;
+  position: absolute;
+  /*float: right;*/
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
@@ -5657,7 +5658,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 button.close {
-  padding: 0;
+  padding: 100px;
   background-color: transparent;
   border: 0;
   -webkit-appearance: none;
@@ -5668,6 +5669,7 @@ button.close {
 a.close.disabled {
   pointer-events: none;
 }
+
 
 .toast {
   max-width: 350px;

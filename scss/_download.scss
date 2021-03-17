@@ -1,13 +1,13 @@
 // Styling for the download section
-section.download {
+section.coming_soon {
     position: relative;
     padding: 150px 0;
     h2 {
         font-size: 50px;
         margin-top: 0;
     }
-    .badges {
-        .badge-link {
+    .download {
+        .download-link {
             display: block;
             margin-bottom: 25px;
             &:last-child {
