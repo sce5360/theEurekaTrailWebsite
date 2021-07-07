@@ -134,7 +134,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: white;
+  color: rgb(212, 49, 49);
 }
 
 @media (min-width: 992px) {
