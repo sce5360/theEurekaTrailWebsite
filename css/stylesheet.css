@@ -733,6 +733,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   display: block;
   width: 50%;
   max-width: 550px;
+  max-height: 450px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -761,19 +762,22 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /* The Close Button */
 .close {
+  z-index: 1;
   position: absolute;
-  padding-left: 70px;
+  padding-left: 35px;
   width: 10%;
   right: 23%;
-  color: #f1f1f1;
+  color: #cec7c7;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: rgb(202, 24, 24);
   text-decoration: none;
   cursor: pointer;
 }
