@@ -539,6 +539,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 #cover:hover {opacity: 0.7;}
 
+/*Locations*/
 #FortKearney {
   border-radius: 5px;
   cursor: pointer;
@@ -620,43 +621,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 #SierraNevadaRoute:hover {opacity: 0.7;}
 
-#horse {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  padding: 5px;
-}
-
-#horse:hover {opacity: 0.7;}
-
-#ox {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  padding: 5px;
-}
-
-#ox:hover {opacity: 0.7;}
-
-#mule {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  padding: 5px;
-}
-
-#mule:hover {opacity: 0.7;}
-
-#dog {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  padding: 5px;
-}
-
-#dog:hover {opacity: 0.7;}
-
-
 #independence {
   border-radius: 5px;
   cursor: pointer;
@@ -710,6 +674,296 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 #ChildsCutoff:hover {opacity: 0.7;}
+
+/*Animals*/
+#horse {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#horse:hover {opacity: 0.7;}
+
+#ox {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#ox:hover {opacity: 0.7;}
+
+#mule {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#mule:hover {opacity: 0.7;}
+
+#dog {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#dog:hover {opacity: 0.7;}
+
+/*People*/
+#abe {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#abe:hover {opacity: 0.7;}
+
+#alex {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#alex:hover {opacity: 0.7;}
+
+#clara {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#clara:hover {opacity: 0.7;}
+
+#edward {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#edward:hover {opacity: 0.7;}
+
+#eliza {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#eliza:hover {opacity: 0.7;}
+
+#ellie {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#ellie:hover {opacity: 0.7;}
+
+#fred {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#fred:hover {opacity: 0.7;}
+
+#george {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#george:hover {opacity: 0.7;}
+
+#harry {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#harry:hover {opacity: 0.7;}
+
+#henry {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#henry:hover {opacity: 0.7;}
+
+#honora {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#honora:hover {opacity: 0.7;}
+
+#ida {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#ida:hover {opacity: 0.7;}
+
+#isaac {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#isaac:hover {opacity: 0.7;}
+
+#james {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#james:hover {opacity: 0.7;}
+
+#jemima {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#jemima:hover {opacity: 0.7;}
+
+#jimBridger {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#jimBridger:hover {opacity: 0.7;}
+
+#lydia {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#lydia:hover {opacity: 0.7;}
+
+#margaret {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#margaret:hover {opacity: 0.7;}
+
+#nathan {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#nathan:hover {opacity: 0.7;}
+
+#philip {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#philip:hover {opacity: 0.7;}
+
+#richard {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#richard:hover {opacity: 0.7;}
+
+#rose {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#rose:hover {opacity: 0.7;}
+
+#samantha {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#samantha:hover {opacity: 0.7;}
+
+#samuel {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#samuel:hover {opacity: 0.7;}
+
+#stephen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#stephen:hover {opacity: 0.7;}
+
+#thomas {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#thomas:hover {opacity: 0.7;}
+
+#walter {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#walter:hover {opacity: 0.7;}
+
+#willy {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+#willy:hover {opacity: 0.7;}
 
 
 /* The Modal (background) */
