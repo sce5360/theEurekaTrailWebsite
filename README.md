@@ -4,10 +4,6 @@
 # Current Fixes:
 
 ## Website Updates:
-### Images Page:
-3. Add all people images -- link to People Folder: https://byu.box.com/s/tshav1cc217ou8y3epnh8m5iy0yqb761
-4. Make the description of all images consistent formatting (Include the rights, date, etc.) -- Link to Image Descriptions: https://byu.box.com/s/3h7bos5z4lv8ann563lz20bmlkzpa87r
-
 
 ### Key Features Section
 1. Update icons -- may need to be updated later if we find better ones
